@@ -13,8 +13,16 @@
 		D801E49321F72A6900BEEB51 /* CustomCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D801E49121F72A6900BEEB51 /* CustomCollectionViewCell.xib */; };
 		D801E49521F72BAD00BEEB51 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D801E49421F72BAD00BEEB51 /* CustomView.swift */; };
 		D801E49721F72F6400BEEB51 /* 59741081_p0_master1200.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D801E49621F72F1F00BEEB51 /* 59741081_p0_master1200.jpg */; };
+		D809D49522A67E3C000880E6 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D809D49422A67E3C000880E6 /* TopViewController.swift */; };
 		D80B63BB21EDE949004159AD /* SelectedDayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D80B63BA21EDE949004159AD /* SelectedDayViewController.swift */; };
 		D8172A7521E4AC9B00E4BEE9 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8172A7421E4AC9B00E4BEE9 /* CalenderViewController.swift */; };
+		D81D9449229D444B005D5AFA /* NewCalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D9448229D444B005D5AFA /* NewCalenderViewController.swift */; };
+		D81D944B229D44B1005D5AFA /* CustomTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D944A229D44B1005D5AFA /* CustomTabBarController.swift */; };
+		D81D944D229D4799005D5AFA /* TopsWholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D944C229D4799005D5AFA /* TopsWholeViewController.swift */; };
+		D81D944F229D47B0005D5AFA /* BottomsWholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D944E229D47B0005D5AFA /* BottomsWholeViewController.swift */; };
+		D81D9451229D47CC005D5AFA /* AkuseWholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D9450229D47CC005D5AFA /* AkuseWholeViewController.swift */; };
+		D81D9453229D4818005D5AFA /* WanpiWholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D9452229D4818005D5AFA /* WanpiWholeViewController.swift */; };
+		D81D9455229D4831005D5AFA /* OthersWholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81D9454229D4831005D5AFA /* OthersWholeViewController.swift */; };
 		D82DD4E521A41AF400FECC24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82DD4E421A41AF400FECC24 /* AppDelegate.swift */; };
 		D82DD4E721A41AF400FECC24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D82DD4E621A41AF400FECC24 /* ViewController.swift */; };
 		D82DD4EA21A41AF400FECC24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D82DD4E821A41AF400FECC24 /* Main.storyboard */; };
@@ -31,6 +39,7 @@
 		D83FAA65222544820017036A /* まる.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FAA64222544790017036A /* まる.png */; };
 		D85B8F8F2200599600DFB805 /* RealmImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B8F8E2200599600DFB805 /* RealmImageModel.swift */; };
 		D85B8F912200687200DFB805 /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B8F902200687200DFB805 /* TopPageViewController.swift */; };
+		D8FAB88D229410820098C3FF /* WholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FAB88C229410820098C3FF /* WholeViewController.swift */; };
 		EF8EEC3BCA83FA2632F55B44 /* Pods_clothes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E807BFA98E15C5BA645DFB5 /* Pods_clothes.framework */; };
 /* End PBXBuildFile section */
 
@@ -44,8 +53,16 @@
 		D801E49121F72A6900BEEB51 /* CustomCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCollectionViewCell.xib; sourceTree = "<group>"; };
 		D801E49421F72BAD00BEEB51 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		D801E49621F72F1F00BEEB51 /* 59741081_p0_master1200.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 59741081_p0_master1200.jpg; sourceTree = "<group>"; };
+		D809D49422A67E3C000880E6 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		D80B63BA21EDE949004159AD /* SelectedDayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedDayViewController.swift; sourceTree = "<group>"; };
 		D8172A7421E4AC9B00E4BEE9 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		D81D9448229D444B005D5AFA /* NewCalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCalenderViewController.swift; sourceTree = "<group>"; };
+		D81D944A229D44B1005D5AFA /* CustomTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarController.swift; sourceTree = "<group>"; };
+		D81D944C229D4799005D5AFA /* TopsWholeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopsWholeViewController.swift; sourceTree = "<group>"; };
+		D81D944E229D47B0005D5AFA /* BottomsWholeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomsWholeViewController.swift; sourceTree = "<group>"; };
+		D81D9450229D47CC005D5AFA /* AkuseWholeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkuseWholeViewController.swift; sourceTree = "<group>"; };
+		D81D9452229D4818005D5AFA /* WanpiWholeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WanpiWholeViewController.swift; sourceTree = "<group>"; };
+		D81D9454229D4831005D5AFA /* OthersWholeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OthersWholeViewController.swift; sourceTree = "<group>"; };
 		D82DD4E121A41AF400FECC24 /* clothes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = clothes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D82DD4E421A41AF400FECC24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D82DD4E621A41AF400FECC24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +81,7 @@
 		D83FAA64222544790017036A /* まる.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まる.png"; sourceTree = SOURCE_ROOT; };
 		D85B8F8E2200599600DFB805 /* RealmImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmImageModel.swift; sourceTree = "<group>"; };
 		D85B8F902200687200DFB805 /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
+		D8FAB88C229410820098C3FF /* WholeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,18 +136,24 @@
 			children = (
 				D82DD4E421A41AF400FECC24 /* AppDelegate.swift */,
 				D82DD4E621A41AF400FECC24 /* ViewController.swift */,
+				D8FAB88C229410820098C3FF /* WholeViewController.swift */,
 				D82DD4E821A41AF400FECC24 /* Main.storyboard */,
-				D82DD51C21AD4C3E00FECC24 /* ClothesCollectionViewCell.swift */,
-				D82DD51D21AD4C3E00FECC24 /* ClothesCollectionViewCell.xib */,
+				D81D9454229D4831005D5AFA /* OthersWholeViewController.swift */,
+				D81D9452229D4818005D5AFA /* WanpiWholeViewController.swift */,
+				D81D9450229D47CC005D5AFA /* AkuseWholeViewController.swift */,
+				D81D944C229D4799005D5AFA /* TopsWholeViewController.swift */,
+				D81D944E229D47B0005D5AFA /* BottomsWholeViewController.swift */,
+				D81D9448229D444B005D5AFA /* NewCalenderViewController.swift */,
+				D81D944A229D44B1005D5AFA /* CustomTabBarController.swift */,
 				D83456BD21BFC8DC0020CDDB /* RealmModel.swift */,
 				D82DD4EB21A41AF400FECC24 /* Assets.xcassets */,
 				D82DD4ED21A41AF400FECC24 /* LaunchScreen.storyboard */,
 				D83456BF21BFCA6F0020CDDB /* DateManager.swift */,
 				D8172A7421E4AC9B00E4BEE9 /* CalenderViewController.swift */,
-				D80B63BA21EDE949004159AD /* SelectedDayViewController.swift */,
 				D801E48E21F71C1900BEEB51 /* CarouselView.swift */,
 				D801E48821F7153D00BEEB51 /* SlideViewController.swift */,
 				D85B8F902200687200DFB805 /* TopPageViewController.swift */,
+				D80B63BA21EDE949004159AD /* SelectedDayViewController.swift */,
 				D82DD4F021A41AF400FECC24 /* Info.plist */,
 				D82DD52021AD4DB700FECC24 /* C4EnpG_UYAAeXRQ.jpg */,
 				D801E49621F72F1F00BEEB51 /* 59741081_p0_master1200.jpg */,
@@ -138,9 +162,12 @@
 				D83FAA60222542320017036A /* トップ3.png */,
 				D83FAA64222544790017036A /* まる.png */,
 				D801E49021F72A6900BEEB51 /* CustomCollectionViewCell.swift */,
+				D82DD51D21AD4C3E00FECC24 /* ClothesCollectionViewCell.xib */,
 				D801E49121F72A6900BEEB51 /* CustomCollectionViewCell.xib */,
+				D82DD51C21AD4C3E00FECC24 /* ClothesCollectionViewCell.swift */,
 				D801E49421F72BAD00BEEB51 /* CustomView.swift */,
 				D85B8F8E2200599600DFB805 /* RealmImageModel.swift */,
+				D809D49422A67E3C000880E6 /* TopViewController.swift */,
 			);
 			path = clothes;
 			sourceTree = "<group>";
@@ -272,18 +299,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8FAB88D229410820098C3FF /* WholeViewController.swift in Sources */,
+				D81D9449229D444B005D5AFA /* NewCalenderViewController.swift in Sources */,
+				D809D49522A67E3C000880E6 /* TopViewController.swift in Sources */,
 				D801E48F21F71C1900BEEB51 /* CarouselView.swift in Sources */,
+				D81D9455229D4831005D5AFA /* OthersWholeViewController.swift in Sources */,
 				D80B63BB21EDE949004159AD /* SelectedDayViewController.swift in Sources */,
 				D8172A7521E4AC9B00E4BEE9 /* CalenderViewController.swift in Sources */,
 				D82DD51E21AD4C3E00FECC24 /* ClothesCollectionViewCell.swift in Sources */,
+				D81D9451229D47CC005D5AFA /* AkuseWholeViewController.swift in Sources */,
 				D83456C021BFCA6F0020CDDB /* DateManager.swift in Sources */,
 				D85B8F912200687200DFB805 /* TopPageViewController.swift in Sources */,
 				D801E48921F7153D00BEEB51 /* SlideViewController.swift in Sources */,
+				D81D9453229D4818005D5AFA /* WanpiWholeViewController.swift in Sources */,
 				D801E49521F72BAD00BEEB51 /* CustomView.swift in Sources */,
 				D83456BE21BFC8DC0020CDDB /* RealmModel.swift in Sources */,
 				D82DD4E721A41AF400FECC24 /* ViewController.swift in Sources */,
+				D81D944B229D44B1005D5AFA /* CustomTabBarController.swift in Sources */,
 				D85B8F8F2200599600DFB805 /* RealmImageModel.swift in Sources */,
+				D81D944F229D47B0005D5AFA /* BottomsWholeViewController.swift in Sources */,
 				D82DD4E521A41AF400FECC24 /* AppDelegate.swift in Sources */,
+				D81D944D229D4799005D5AFA /* TopsWholeViewController.swift in Sources */,
 				D801E49221F72A6900BEEB51 /* CustomCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

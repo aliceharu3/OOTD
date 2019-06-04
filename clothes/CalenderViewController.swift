@@ -13,12 +13,13 @@ import CalculateCalendarLogic
 class CalenderViewController: UIViewController, FSCalendarDelegate, FSCalendarDataSource,FSCalendarDelegateAppearance {
     
     @IBOutlet var calendar: FSCalendar!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-                self.calendar.dataSource = self
-                self.calendar.delegate = self
+//
+//                self.calendar.dataSource = self
+//                self.calendar.delegate = self
        
         
         // Do any additional setup after loading the view.
@@ -85,6 +86,8 @@ class CalenderViewController: UIViewController, FSCalendarDelegate, FSCalendarDa
         performSegue(withIdentifier: "currentDay", sender: nil)
         
     }
+    
+
     
     
     /*

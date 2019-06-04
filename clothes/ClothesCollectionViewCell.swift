@@ -19,5 +19,5 @@ class ClothesCollectionViewCell: UICollectionViewCell {
     func showImage(image: UIImage) ->Void {
         imageView.image = image
     }
-
+   
 }
