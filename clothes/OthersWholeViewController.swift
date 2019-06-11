@@ -38,19 +38,20 @@ class OthersWholeViewController: UIViewController{
         //collectionView.backgroundColor = UIColor.init(red: 0.9, green: 0, blue: 0.1, alpha:0.5)
         
         load(genre: genre)
-        
-        self.navigationItem.rightBarButtonItem = UIBarButtonItem(title: "+", style: UIBarButtonItem.Style.plain, target: self, action:#selector(self.getImage))
-    }
-    @objc func getImage(){
-        let pick = UIImagePickerController()
-        pick.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
-        pick.allowsEditing = true
-        self.present(pick, animated: true, completion: nil)
+
     }
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    @IBAction func getImage(_ sender: UIButton) {
+        
+        let pick = UIImagePickerController()
+        pick.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
+        pick.allowsEditing = true
+        self.present(pick, animated: true, completion: nil)
     }
     
    
