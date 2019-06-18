@@ -36,9 +36,9 @@ class OthersWholeViewController: UIViewController{
         collectionView.delegate = self as? UICollectionViewDelegate
         
         //collectionView.backgroundColor = UIColor.init(red: 0.9, green: 0, blue: 0.1, alpha:0.5)
-        
+        (self.tabBarController as! CustomTabBarController).genre = self.genre
         load(genre: genre)
-
+        
     }
     
     override func didReceiveMemoryWarning() {
@@ -46,14 +46,18 @@ class OthersWholeViewController: UIViewController{
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func getImage(_ sender: UIButton) {
-        
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print((self.tabBarController?.viewControllers?.count))
+    }
+    
+    func getImage() {
+        print("hoge")
         let pick = UIImagePickerController()
         pick.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
         pick.allowsEditing = true
         self.present(pick, animated: true, completion: nil)
     }
-    
    
     
     func saveNewImage(newImage:UIImage, genre:String) {
@@ -85,11 +89,11 @@ class OthersWholeViewController: UIViewController{
         collectionView.reloadData()
     }
     
-
+    
 }
 
 extension OthersWholeViewController:UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout{
-   
+    
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return realmModelArray.count
     }
