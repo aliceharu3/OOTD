@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 
-class OthersWholeViewController: UIViewController{
+class OthersWholeViewController: BaseViewController{
     
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -37,6 +37,8 @@ class OthersWholeViewController: UIViewController{
         
         //collectionView.backgroundColor = UIColor.init(red: 0.9, green: 0, blue: 0.1, alpha:0.5)
         (self.tabBarController as! CustomTabBarController).genre = self.genre
+        
+       
         load(genre: genre)
         
     }

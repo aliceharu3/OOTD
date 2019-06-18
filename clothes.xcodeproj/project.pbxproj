@@ -39,6 +39,7 @@
 		D83FAA65222544820017036A /* まる.png in Resources */ = {isa = PBXBuildFile; fileRef = D83FAA64222544790017036A /* まる.png */; };
 		D85B8F8F2200599600DFB805 /* RealmImageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B8F8E2200599600DFB805 /* RealmImageModel.swift */; };
 		D85B8F912200687200DFB805 /* TopPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D85B8F902200687200DFB805 /* TopPageViewController.swift */; };
+		D8919D8822B8F29B00E63B89 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8919D8722B8F29B00E63B89 /* BaseViewController.swift */; };
 		D8FAB88D229410820098C3FF /* WholeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8FAB88C229410820098C3FF /* WholeViewController.swift */; };
 		EF8EEC3BCA83FA2632F55B44 /* Pods_clothes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E807BFA98E15C5BA645DFB5 /* Pods_clothes.framework */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		D83FAA64222544790017036A /* まる.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "まる.png"; sourceTree = SOURCE_ROOT; };
 		D85B8F8E2200599600DFB805 /* RealmImageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmImageModel.swift; sourceTree = "<group>"; };
 		D85B8F902200687200DFB805 /* TopPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPageViewController.swift; sourceTree = "<group>"; };
+		D8919D8722B8F29B00E63B89 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		D8FAB88C229410820098C3FF /* WholeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WholeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 				D82DD4E621A41AF400FECC24 /* ViewController.swift */,
 				D8FAB88C229410820098C3FF /* WholeViewController.swift */,
 				D82DD4E821A41AF400FECC24 /* Main.storyboard */,
+				D8919D8722B8F29B00E63B89 /* BaseViewController.swift */,
 				D81D9454229D4831005D5AFA /* OthersWholeViewController.swift */,
 				D81D9452229D4818005D5AFA /* WanpiWholeViewController.swift */,
 				D81D9450229D47CC005D5AFA /* AkuseWholeViewController.swift */,
@@ -302,6 +305,7 @@
 				D8FAB88D229410820098C3FF /* WholeViewController.swift in Sources */,
 				D81D9449229D444B005D5AFA /* NewCalenderViewController.swift in Sources */,
 				D809D49522A67E3C000880E6 /* TopViewController.swift in Sources */,
+				D8919D8822B8F29B00E63B89 /* BaseViewController.swift in Sources */,
 				D801E48F21F71C1900BEEB51 /* CarouselView.swift in Sources */,
 				D81D9455229D4831005D5AFA /* OthersWholeViewController.swift in Sources */,
 				D80B63BB21EDE949004159AD /* SelectedDayViewController.swift in Sources */,

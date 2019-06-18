@@ -9,7 +9,7 @@
 import UIKit
 import RealmSwift
 
-class BottomsWholeViewController: UIViewController{
+class BottomsWholeViewController: BaseViewController{
     
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -36,6 +36,9 @@ class BottomsWholeViewController: UIViewController{
         
         //collectionView.backgroundColor = UIColor.init(red: 0.9, green: 0, blue: 0.1, alpha:0.5)
         
+        (self.tabBarController as! CustomTabBarController).genre = self.genre
+        load(genre: genre)
+        
         load(genre: genre)
     }
     
@@ -44,7 +47,7 @@ class BottomsWholeViewController: UIViewController{
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func getImage(_ sender: UIButton) {
+    func getImage() {
         
         let pick = UIImagePickerController()
         pick.delegate = self as! UIImagePickerControllerDelegate & UINavigationControllerDelegate
